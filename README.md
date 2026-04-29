@@ -1,11 +1,7 @@
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/9887120d-797a-4713-a16b-43f547c17cd7" />
-# Climate Data Analysis
 
 This project looks at how temperature, CO₂ emissions, and precipitation have changed across the world from 1940 to 2024. The data comes from three Our World in Data CSV files, which I cleaned and merged into one dataset covering 178 countries. From there I made charts to explore the trends, then trained two machine learning models to predict temperature and precipitation.
 
----
-
-## What's in the notebook
 
 **Data cleaning and merging**
 The three datasets all use slightly different column names and formats, so the first part of the notebook standardises everything and joins them on country + year. Rows with missing values are dropped rather than filled in, since guessing climate data felt wrong.
@@ -20,11 +16,10 @@ The three datasets all use slightly different column names and formats, so the f
 **Machine learning**
 Two models — Linear Regression and Random Forest — both trained to predict temperature and precipitation. Country is one-hot encoded so the model knows where each row is located geographically. Both models end up with very high R² scores (~0.99 for temperature), mostly because knowing which country a row belongs to already tells you most of what you need to know about its climate.
 
----
 
 ## Files
 
-```
+
 AI PROJECT/
 ├── climate_project.ipynb
 ├── average-monthly-surface-temperature.csv
