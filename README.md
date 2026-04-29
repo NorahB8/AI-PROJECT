@@ -1,3 +1,4 @@
+<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/9887120d-797a-4713-a16b-43f547c17cd7" />
 # Climate Data Analysis
 
 This project looks at how temperature, CO₂ emissions, and precipitation have changed across the world from 1940 to 2024. The data comes from three Our World in Data CSV files, which I cleaned and merged into one dataset covering 178 countries. From there I made charts to explore the trends, then trained two machine learning models to predict temperature and precipitation.
